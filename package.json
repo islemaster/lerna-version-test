@@ -1,0 +1,11 @@
+{
+  "name": "lerna-version-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Brad Buchanan <brad.buchanan@discordapp.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "lerna": "3.22.1"
+  }
+}
