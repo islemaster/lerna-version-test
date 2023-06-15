@@ -16,7 +16,7 @@ jobs:
       - name: Check lerna version
         run: lerna --version
       - name: NPM bin lerna version
-        run: `npm bin`/lerna --version
+        run: $(npm bin)/lerna --version
       - name: Check lerna CLI version
         run: grep version node_modules/@lerna/cli/package.json
 
